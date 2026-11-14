@@ -1,14 +1,17 @@
 # HaLow Security System
 
-ESP-IDF/LVGL HMI for the CrowPanel Advance 5-inch ESP32-S3 (800×480), with Wi-Fi/HaLow status and camera system controls.
+ESP-IDF/LVGL HMI project for the CrowPanel Advance 5-inch ESP32-S3 V1.0 (800×480), designed for a three-camera HaLow security system.
 
-## Contents
+## Project
 
-- `project/`: source, dependency lock, board configuration, and UI previews
-- `firmware/`: flashed application image, bootloader, partition table, and flash instructions
+Source, setup instructions, board notes, and interface previews are in [project/](project/README.md). The build uses ESP-IDF 5.5.6 and pins its managed dependencies.
 
-See [project/README.md](project/README.md) for build requirements, board wiring, setup, and limitations. Start with [firmware/START-HERE.txt](firmware/START-HERE.txt) to flash the included image.
+The source defaults leave camera endpoints blank. Enter local camera addresses and network credentials on the device or configure them locally before building. No site-specific camera addresses or credentials are included in the public source.
 
-The camera stream pipeline is still under development; the current firmware provides the HMI and networking controls.
+The camera streaming path is still under development. Driver and board compatibility limitations are documented in the project README.
 
-HaLow firmware and board support are subject to their upstream licenses. The supplied Morse Micro BCF and license notices are included in this repository.
+## Firmware
+
+The prebuilt firmware image was rebuilt with blank camera endpoint defaults. An automated publishing review stopped the public firmware upload because it contains a device-specific binary and could expose embedded device/network metadata. The source and build instructions are available here; the firmware image can be added after you explicitly approve publishing that binary to this public repository.
+
+Morse Micro license notices are included at the repository root.

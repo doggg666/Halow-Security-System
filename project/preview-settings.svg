@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" role="img" aria-labelledby="title">
+  <title id="title">Fieldview Network settings</title>
+  <defs>
+    <style>
+      text { font-family: Roboto, Arial, sans-serif; font-size: 16px; fill: #202124; }
+      .title { font-size: 24px; font-weight: 500; }
+      .secondary { fill: #454b54; }
+      .control { font-weight: 500; text-anchor: middle; fill: #0b57d0; }
+      .selected { fill: #041e49; }
+      .on-blue { fill: #fff; }
+      .quiet { fill: #fff; stroke: #dadce0; }
+    </style>
+    <g id="camera-icon" fill="#0b57d0">
+      <rect x="-12" y="-8" width="17" height="16" rx="3"/>
+      <path d="m5-3 7-4v14L5 3z"/>
+    </g>
+  </defs>
+  <rect width="800" height="480" fill="#f0f4f9"/>
+  <rect x="20" y="16" width="44" height="44" rx="16" fill="#d3e3fd"/>
+  <use href="#camera-icon" transform="translate(42 38)"/>
+  <text class="title" x="76" y="35">Fieldview</text>
+  <text class="secondary" x="76" y="57">HaLow cameras</text>
+  <text class="title" x="400" y="46" text-anchor="middle">1:24 PM</text>
+  <rect x="563" y="22" width="76" height="32" rx="16" fill="#fff"/>
+  <circle cx="576" cy="38" r="4" fill="#747b86"/>
+  <text x="586" y="44">Wi-Fi</text>
+  <rect x="645" y="22" width="83" height="32" rx="16" fill="#fff"/>
+  <circle cx="658" cy="38" r="4" fill="#a35b00"/>
+  <text x="668" y="44">HaLow</text>
+  <g aria-label="Settings">
+    <rect class="quiet" x="734" y="15" width="46" height="46" rx="23"/>
+    <text class="control" x="757" y="38" dominant-baseline="central" style="font-size:24px">⚙</text>
+  </g>
+
+  <rect x="20" y="76" width="760" height="384" rx="28" fill="#fff"/>
+  <text class="title" x="40" y="115">North Gate</text>
+  <rect x="514" y="93" width="118" height="46" rx="23" fill="#d3e3fd"/>
+  <rect class="quiet" x="642" y="93" width="118" height="46" rx="23"/>
+  <text class="control selected" x="573" y="122">320 x 240</text>
+  <text class="control" x="701" y="122">640 x 480</text>
+  <rect x="40" y="153" width="720" height="230" rx="20" fill="#e8eff8"/>
+  <circle cx="400" cy="228" r="30" fill="#d3e3fd"/>
+  <use href="#camera-icon" transform="translate(400 228)"/>
+  <text class="title" x="400" y="293" text-anchor="middle">No video</text>
+  <text class="secondary" x="400" y="322" text-anchor="middle">Connect to the camera network</text>
+  <text x="400" y="360" text-anchor="middle" fill="#0b57d0">Tap for full screen</text>
+  <rect x="40" y="398" width="232" height="46" rx="23" fill="#d3e3fd"/>
+  <rect class="quiet" x="284" y="398" width="232" height="46" rx="23"/>
+  <rect class="quiet" x="528" y="398" width="232" height="46" rx="23"/>
+  <text class="control selected" x="156" y="427">North Gate</text>
+  <text class="control" x="400" y="427">Loading Bay</text>
+  <text class="control" x="644" y="427">Workshop</text>
+
+  <rect width="800" height="480" fill="#202124" opacity=".40"/>
+  <rect x="24" y="20" width="752" height="440" rx="28" fill="#f0f4f9"/>
+  <text class="title" x="48" y="61">Network settings</text>
+  <text class="secondary" x="404" y="60">1:24 PM</text>
+  <text class="secondary" x="48" y="92">HaLow profile: hallow-server  /  WPA3-SAE</text>
+  <rect class="quiet" x="48" y="108" width="438" height="46" rx="12"/>
+  <text class="secondary" x="62" y="137">Network name (SSID)</text>
+  <rect class="quiet" x="48" y="164" width="438" height="46" rx="12"/>
+  <text class="secondary" x="62" y="193">WPA2 / WPA3 passphrase</text>
+  <text class="selected" x="48" y="232">HaLow link quality: Driver unavailable</text>
+  <rect x="502" y="36" width="250" height="200" rx="20" fill="#fff"/>
+  <text x="514" y="60">Network mode</text>
+  <rect x="514" y="72" width="72" height="46" rx="23" fill="#d3e3fd"/>
+  <rect class="quiet" x="591" y="72" width="72" height="46" rx="23"/>
+  <rect class="quiet" x="668" y="72" width="72" height="46" rx="23"/>
+  <text class="control selected" x="550" y="101">Auto</text>
+  <text class="control" x="627" y="101">Wi-Fi</text>
+  <text class="control" x="704" y="101">HaLow</text>
+  <text class="secondary" x="514" y="140">Add Wi-Fi or HaLow<tspan x="514" dy="19">credentials in Settings</tspan></text>
+  <rect x="514" y="178" width="226" height="46" rx="23" fill="#0b57d0"/>
+  <text class="control on-blue" x="627" y="207">↻ Reconnect</text>
+  <rect class="quiet" x="48" y="402" width="142" height="46" rx="23"/>
+  <text class="control" x="119" y="431">Scan Wi-Fi</text>
+  <rect class="quiet" x="202" y="402" width="142" height="46" rx="23"/>
+  <text class="control" x="273" y="431">Scan HaLow</text>
+  <rect class="quiet" x="506" y="402" width="100" height="46" rx="23"/>
+  <text class="control" x="556" y="431">Close</text>
+  <rect x="620" y="402" width="132" height="46" rx="23" fill="#0b57d0"/>
+  <text class="control on-blue" x="686" y="431">Save</text>
+</svg>
